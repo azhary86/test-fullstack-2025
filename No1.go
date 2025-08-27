@@ -36,7 +36,7 @@ func main(){
 	fmt.Println("Enter number: ")
 	var number int
 	_, err := fmt.Scanf("%d",&number)
-	if err != nil {
+	if err != nil {	
 		log.Fatalf("Error reading integer: %v", err)
 	}
 	
